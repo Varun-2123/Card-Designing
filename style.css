@@ -8,17 +8,18 @@
     display: flex;
     justify-content: center;
     background-color: rgba(228, 248, 246, 0.817);
+    overflow: auto;
 }
 .card{
     font-family: "Montserrat", system-ui;
     margin-top: 3vh;
     border-radius: 20px;
-    height: 95vh;
-    width: 40vw;
+    height: 95%;
+    width: 40%;
     background-color: white;
     position: relative;
     border: 1px solid rgb(174, 230, 244);
-    overflow: auto;
+
 }
 .image{
     position: relative;
